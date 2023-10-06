@@ -1,6 +1,6 @@
 import Image from "next/image";
 import GetSamplesForm from "./GetSamplesForm";
-
+console.log('xyz');
 export default function SiteHero() {
   return (
     <div className="mx-8 lg:py-28 text-center relative bg-gradient-to-br from-indigo-600 via-purple-700 to-purple-900 rounded-lg overflow-hidden flex items-center justify-center">
